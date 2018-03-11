@@ -1,0 +1,149 @@
+header{
+    background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 3em;
+}
+
+#menu img{
+    max-width: 8em;
+}
+#textMenu{
+    text-align: center;
+}
+#redesSocial{
+    padding-top: 13vh;
+}
+
+#redesSocial ul{
+    list-style-type: none;
+}
+
+#redesSocial ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+#viaja{
+    color: #ffffff;
+}
+#viaja a{
+    margin-left: 25%;
+}
+
+#destinos{
+    padding: 3%;
+}
+.imgDestini{
+    max-height: 230px;
+}
+.nomDestino p{
+    padding: 1em;
+    text-align: center;
+}
+
+.reserva{
+    padding-top: 2%;
+    text-align: center;
+    color: #fff;
+    background: #3385ff;
+}
+.precio{
+    padding-top: 2%;
+    text-align: center;
+    color: #003399;
+    background: #ffff00;
+}
+#somos{
+    background-image: url("../images/somos.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.quiSom{
+    padding: 2%;
+    background: #fff;
+    border: 5px solid #008ae6;
+    border-radius: 8px;
+}
+.quiSom h2{
+    border-bottom: 3px solid #ffff00;
+    max-width: 230px;
+}
+.quiSom a{
+    margin-left: 28%;
+}
+
+#dondeEstamos{
+    padding-top: 2%;
+}
+
+#dondeEstamos hr{
+    color: #0D3349;
+    border-width: 2px;
+}
+
+#dondeEstamos .form-row{
+    margin-bottom: 2%;
+}
+
+footer{
+    color: #fff;
+    background: #0D3349;
+    padding-top: 2%;
+}
+
+footer hr{
+    background-color: #fff;
+}
+
+#informacion ul{
+    list-style-type: none;
+}
+#informacion ul li{
+    display: inline-block;
+}
+#informacion ul li a{
+    color:#fff;
+}
+#redesSocial2{
+    display: none;
+}
+.redS2{
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    #menu{
+        background-color: #0D3349;
+        background-size:cover;
+    }
+    /*
+    #navbarTogglerDemo02{
+        background-color: #0c5460;
+        opacity: 0.5;
+    }
+    */
+
+    #redesSocial, #informacion, #dondeEstamos, #pie{
+        display: none;
+    }
+
+    #somos{
+        background: #66ccff;
+    }
+
+    #redesSocial2{
+        display: block;
+    }
+    #redesSocial2 ul{
+        list-style-type: none;
+    }
+
+    #redesSocial2 ul li{
+        float: left;
+        margin-right: 0.5em;
+    }
+
+}
+
