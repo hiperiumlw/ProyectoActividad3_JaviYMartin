@@ -10,6 +10,10 @@ header{
     padding-right: 0!important;
 }
 
+.row{
+    margin-right: 0!important;
+}
+
 #navbarTogglerDemo02{
     justify-content: center;
 }
@@ -178,10 +182,11 @@ footer hr{
 #redesSocial2{
     display: none;
 }
+/*
 .redS2{
     display: none;
 }
-
+*/
 @media screen and (max-width: 980px) {
     #menu{
         background-color: #00091a;
@@ -213,8 +218,13 @@ footer hr{
         background: #66ccff;
     }
 
+    #ayuda, #newsletter{
+        padding: 2em;
+    }
+
     #redesSocial2{
-        display: block;
+        display: initial;
+        margin-bottom: 8vh;
     }
     #redesSocial2 ul{
         list-style-type: none;
