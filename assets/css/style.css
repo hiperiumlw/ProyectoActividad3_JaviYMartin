@@ -14,7 +14,7 @@ header{
     margin-right: 0!important;
 }
 
-#navbarTogglerDemo02{
+#navbarTohigglerDemo02{
     justify-content: center;
 }
 
@@ -204,7 +204,7 @@ footer hr{
     }
 
 
-    #redesSocial, #informacion, #dondeEstamos, #pie{
+    #redesSocial, #informacion, #dondeEstamos, #pie, #enlaceEstamos{
         display: none;
     }
 
