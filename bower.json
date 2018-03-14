@@ -1,0 +1,23 @@
+{
+  "name": "singel page",
+  "authors": [
+    "Eloy <eloy.galdon@gmail.com>"
+  ],
+  "description": "ejercicio de prueba de web en singel page",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "fullpage.js": "^2.9.6"
+  }
+}

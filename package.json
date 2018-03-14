@@ -1,0 +1,26 @@
+{
+  "name": "singelpage",
+  "version": "1.0.0",
+  "description": "actividad2",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EloyGaldon/Actividad2_EloyMartin.git"
+  },
+  "author": "EloyMartin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EloyGaldon/Actividad2_EloyMartin/issues"
+  },
+  "homepage": "https://github.com/EloyGaldon/Actividad2_EloyMartin#readme"
+}
