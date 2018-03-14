@@ -12,6 +12,7 @@ $(function (){
     });
 });
 
+
 // Añadimos efecto al scroll de los links , para que el movimiento sea mas suave
 $("a").on('click', function(event) {
 
@@ -34,3 +35,4 @@ $("a").on('click', function(event) {
         });
     } // End if
 });
+
