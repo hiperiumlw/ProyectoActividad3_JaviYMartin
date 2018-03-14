@@ -14,7 +14,7 @@ header{
     margin-right: 0!important;
 }
 
-#navbarTohigglerDemo02{
+#navbarTogglerDemo02{
     justify-content: center;
 }
 
@@ -169,6 +169,10 @@ footer hr{
     background-color: #fff;
 }
 
+#ayuda, #informacion, #newsletter{
+    padding-left: 3vw;
+}
+
 #informacion ul{
     list-style-type: none;
 }
@@ -187,7 +191,7 @@ footer hr{
     display: none;
 }
 */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 780px) {
     #menu{
         background-color: #00091a;
         opacity:0.8;
@@ -202,9 +206,32 @@ footer hr{
         padding-top: 2%;
         width:auto;
     }
+    #redesSocial{
+        display: none;
+    }
+
+    #redesSocial2{
+        display: initial;
+    }
+    #redesSocial2 .col-12{
+        justify-content: center;
+    }
+
+    #redesSocial2 ul{
+        list-style-type: none;
+    }
+
+    #redesSocial2 ul li{
+        float: left;
+        margin-right: 0.5em;
+    }
+}
 
 
-    #redesSocial, #informacion, #dondeEstamos, #pie, #enlaceEstamos{
+@media screen and (max-width: 700px) {
+
+
+   #informacion, #dondeEstamos, #pie, #enlaceEstamos{
         display: none;
     }
 
@@ -216,24 +243,13 @@ footer hr{
 
     #somos{
         background: #66ccff;
+
     }
 
     #ayuda, #newsletter{
-        padding: 2em;
+        padding: 8%;
     }
 
-    #redesSocial2{
-        display: initial;
-        margin-bottom: 8vh;
-    }
-    #redesSocial2 ul{
-        list-style-type: none;
-    }
-
-    #redesSocial2 ul li{
-        float: left;
-        margin-right: 0.5em;
-    }
 
 }
 
