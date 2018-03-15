@@ -310,6 +310,10 @@ footer hr{
         width:auto;
     }
 
+    #ayuda, #newsletter, #informacion{
+        padding: 0%;
+    }
+
     #redesSocial{
         display: none;
     }
@@ -317,8 +321,8 @@ footer hr{
     #redesSocial2{
         display: initial;
     }
-    #redesSocial2 .col-12{
-        justify-content: center;
+    #redesSocial2 .row .col-12{
+        padding-left: 25vw;
     }
 
     #redesSocial2 ul{
@@ -352,7 +356,13 @@ footer hr{
 
 
     #ayuda, #newsletter{
-        padding: 8%;
+          padding-left: 8%;
+      }
+    #ayuda h5, #newsletter h5{
+        text-decoration: underline #ffff00;
+    }
+    #redesSocial2 .row .col-12{
+        padding-left: 5vw;
     }
 
 
