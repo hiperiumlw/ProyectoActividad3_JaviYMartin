@@ -1,0 +1,399 @@
+header{
+  /*  background-image: url("../images/nathan-anderson-316188-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 3em; */
+}
+
+.container-fluid{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.row{
+    margin-right: 0!important;
+}
+
+
+#navbarTogglerDemo02{
+
+    justify-content: center;
+}
+
+.navbar-collapse .navbar-nav li a{
+    color: white!important;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*Mouse encima*/
+.navbar-collapse .navbar-nav li a:hover{
+    color: yellow!important;
+}
+
+/*
+#menu{
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+*/
+
+/*
+#menu .normal{
+    ;
+}
+*/
+#menu img{
+    max-width: 5em;
+}
+
+#textMenu{
+    text-align: center;
+}
+
+
+#redesSocial ul{
+    list-style-type: none;
+}
+
+#redesSocial ul li{
+    float: left;
+    margin-right: 0.5em;
+}
+
+#carouselExampleIndicators {
+    max-height: 100vh;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+#carousel1{
+    background-image: url("../images/verano.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 3em;
+    height: 100%;
+}
+#carousel2{
+    background-image: url("../images/otonyo.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 3em;
+    height: 100%;
+}
+#carousel3{
+    background-image: url("../images/invierno.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 3em;
+    height: 100%;
+}
+
+.viaja{
+    font-size: 6em;
+    color: #ffffff;
+    margin-top: 10%;
+}
+.viaja h1,h3{
+    text-shadow: 1px 1px 1px black;
+}
+.viaja a{
+    margin-left: 25%;
+}
+
+
+/*DESTINOS : MARTIN */
+
+.contenedor-destinos .row{
+    margin-right: -15px !important;
+}
+#destinos,#destinos-moviles{
+    min-height: 25em;
+    background: #e2e1e0;
+}
+
+.ultimahora,  .proximos{
+    margin-left: 3%;
+    margin-bottom: 0px !important;
+    padding-top: 3%;
+    font-weight: bolder;
+    color: darkslategrey;
+    font-size: x-large;
+
+}
+.fila-destinos{
+    padding: 2%;
+}
+.fila-destinos a{
+    text-decoration: none;
+}
+.destino{
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.destino h4{
+    font-size: 18px;
+    color:#46403c;
+    margin:0px !important;
+    padding: 10px 10px 0px 10px;
+}
+
+
+.p-1{
+    padding: 0px !important;
+}
+
+.destino strong{
+    color:#d03505;
+    font-size: 14px;
+    padding: 10px 0px 0px 10px;
+}
+
+.destino .descripcion{
+    color: grey;
+    font-size: 12px;
+    padding: 10px 0px 0px 10px;
+}
+
+.destino .reservar{
+    display: inherit;
+}
+
+.destino .expira{
+    color:black;
+    font-size: small;
+margin-right: 2em;
+}
+.destino .precio{
+    color:grey;
+
+}
+
+.destino .precio strong{
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+    padding: 0px 0px 0px 0px !important;
+    margin-right: 1em;
+}
+.destino-malta{
+    background: url("../images/malta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-london{
+    background: url("../images/london.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-dublin{
+    background: url("../images/dublin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-paris{
+    background: url("../images/paris.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-amsterdam{
+    background: url("../images/amsterdam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-rome{
+    background: url("../images/roma.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-azores{
+    background: url("../images/azores.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+
+.destino-tenerife{
+    background: url("../images/tenerife.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino-nuevayork{
+    background: url("../images/nueva-york-ciudad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width:100%;
+    height: 12em;
+}
+.destino:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*DESTINOS : MARTIN */
+
+#somos{
+    background-image: url("../images/somos.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.quiSom{
+    padding: 2%;
+    background: #fff;
+    border: 5px solid #008ae6;
+    border-radius: 8px;
+    box-shadow: 4px 3px 4px #000033;
+}
+
+.quiSom h2{
+    border-bottom: 3px solid #ffff00;
+    max-width: 230px;
+}
+.quiSom a{
+    margin-left: 28%;
+}
+
+#dondeEstamos{
+    padding-top: 2%;
+}
+
+#dondeEstamos hr{
+    color: #0D3349;
+    border-width: 2px;
+}
+
+#dondeEstamos .form-row{
+    margin-bottom: 2%;
+}
+
+footer{
+    color: #fff;
+    background: #0D3349;
+    padding-top: 2%;
+}
+
+footer hr{
+    background-color: #fff;
+}
+
+
+#ayuda, #informacion, #newsletter{
+    padding-left: 3vw;
+}
+
+
+#informacion ul{
+    list-style-type: none;
+}
+#informacion ul li{
+    display: inline-block;
+}
+#informacion ul li a{
+    color:#fff;
+    padding: 0!important;
+}
+#redesSocial2{
+    display: none;
+}
+/*
+.redS2{
+    display: none;
+}
+*/
+
+@media screen and (max-width: 780px) {
+
+    #menu{
+        background-color: #00091a;
+        opacity:0.8;
+        /*max-height:100px ;*/
+        background-size:cover;
+        z-index: 1;
+    }
+
+
+    #navbarTogglerDemo02{
+        text-align: right;
+        padding-top: 2%;
+        width:auto;
+    }
+
+    #redesSocial{
+        display: none;
+    }
+
+    #redesSocial2{
+        display: initial;
+    }
+    #redesSocial2 .col-12{
+        justify-content: center;
+    }
+
+    #redesSocial2 ul{
+        list-style-type: none;
+    }
+
+    #redesSocial2 ul li{
+        float: left;
+        margin-right: 0.5em;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+   #informacion, #dondeEstamos, #pie, #enlaceEstamos{
+
+        display: none;
+    }
+
+    .viaja{
+        color: #ffffff;
+        margin-top: 25%;
+        margin-left: 15%;
+    }
+
+    #somos{
+        background: #66ccff;
+    }
+
+
+    #ayuda, #newsletter{
+        padding: 8%;
+    }
+
+
+}
+
