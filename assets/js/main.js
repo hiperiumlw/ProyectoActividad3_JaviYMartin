@@ -34,10 +34,6 @@ $(document).ready(function () {
     }, 1000);
 })
 
-
-
-
-
 $(function (){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
