@@ -106,7 +106,8 @@ header{
 /*DESTINOS : MARTIN */
 
 .contenedor-destinos .row{
-    margin-right: -15px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 #destinos,#destinos-moviles{
     min-height: 25em;
@@ -285,19 +286,13 @@ margin-right: 2em;
     margin-left: 28%;
 }
 
+/*MAPA - CONTACTO : MARTIN*/
 #dondeEstamos{
-    padding-top: 2%;
+    padding: 3%;
 }
 
-#dondeEstamos hr{
-    color: #0D3349;
-    border-width: 2px;
-}
 
-#dondeEstamos .form-row{
-    margin-bottom: 2%;
-}
-
+/*MAPA - CONTACTO : MARTIN*/
 footer{
     color: #fff;
     background: #0D3349;
@@ -371,6 +366,16 @@ footer hr{
     #redesSocial2 ul li{
         float: left;
         margin-right: 0.5em;
+    }
+
+    /*DESTINOS : MARTIN*/
+
+    .columna-proximo,.columna-ultimahora{
+        margin-top: 1em;
+    }
+    .fila-destinos .col-12,.col-sm-12{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 
