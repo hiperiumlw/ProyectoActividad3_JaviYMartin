@@ -104,7 +104,6 @@ header{
 
 
 /*DESTINOS : MARTIN */
-
 .contenedor-destinos .row{
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -261,6 +260,20 @@ margin-right: 2em;
 .destino:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+.tooltip-general{
+    display: flex;
+}
+.tooltip-salida-img,.tooltip-regreso-img{
+    background-color: white;
+}
+#grabMe .tooltip-general:nth-child(2){
+    margin-top: 1em;
+}
+.tooltip-salida-descripcion,.tooltip-regreso-descripcion{
+    margin-left: 1em;
+    font-size: small;
+}
 /*DESTINOS : MARTIN */
 
 #somos{
@@ -287,10 +300,75 @@ margin-right: 2em;
 }
 
 /*MAPA - CONTACTO : MARTIN*/
-#dondeEstamos{
-    padding: 3%;
+.fila-contacto-titulo{
+    padding-left: 3%; !important;
+    padding-right: 3% !important;
+    padding-top: 3% !important;
+    padding-bottom: 0px !important;
 }
 
+.fila-contacto-formulario,.fila-mapa{
+    padding: 3% !important;
+    margin: 0px !important;
+}
+
+.fila-contacto-formulario form{
+    display: flex;
+    width: 100%;
+}
+
+.fila-mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+.fila-mapa .col-6{
+    padding: 0px !important;
+    border: 1px solid black;
+    min-height: 15em;
+}
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.section-content{
+    text-align: center;
+}
+
+.wrapper-contacto{
+    font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    background: white; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+.linea-formulario{
+    border-right: 1px solid black;
+}
+label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+    color: black;
+}
+.form-control{
+    font-size: 1.3em;
+    color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+    /* margin-top: px;*/
+}
+.submit{
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #B29999;
+}
 
 /*MAPA - CONTACTO : MARTIN*/
 footer{
@@ -383,7 +461,7 @@ footer hr{
 @media screen and (max-width: 700px) {
 
 
-   #informacion, #dondeEstamos, #pie, #enlaceEstamos{
+   #informacion, #dondeEstamos, #pie, .wrapper-contacto{
 
         display: none;
     }

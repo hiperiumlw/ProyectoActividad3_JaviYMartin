@@ -1,9 +1,22 @@
 // ocultar menu con es scroll
 $(document).ready(function () {
+
+    new jBox('Tooltip', {
+        attach: '.jBox-Tooltip',
+        theme: 'TooltipDark',
+        content: $('#grabMe'),
+    });
+
+    new jBox('Modal', {
+        attach: '.verDisponibilidad',
+        getTitle: 'data-jbox-title',
+        getContent: 'data-jbox-content'
+    });
     
-
-
-
+    $('.verDisponibilidad').click(function (e) {
+        e.preventDefault();
+    })
+    
     // Set the date we're counting down to
     var countDownDate = new Date("Apr 5, 2018 15:37:25").getTime();
 
