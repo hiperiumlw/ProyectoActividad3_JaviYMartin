@@ -1,0 +1,110 @@
+/* DESTINOS - INICIO*/
+
+.imagen{
+    margin-bottom: 1em;
+}
+.fila-descripcion{
+    margin-left: 0!important;
+    margin-right: 0!important;
+    padding: 5%;
+}
+
+.imagen-descripcion{
+    text-align: center;
+}
+.titulo{
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    padding: 3%;
+}
+
+
+/* DESTINOS - FIN */
+
+/* INICIARSESION - INICIO */
+.wrapper-iniciarsesion{
+    min-height: 30em;
+}
+.contenedor-iniciarsesion{
+    padding: 3%;
+}
+.formulario-iniciarsesion{
+    background-color: #fff;
+    border-radius: .25rem;
+}
+.formulario-cabecera{
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid grey;
+}
+.formulario-cabecera,.formulario-contenido{
+    padding: 3%;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* INICIARSESION - FIN */
+
+/* REGISTRO - INICIO */
+.wrapper-registro{
+    min-height: 30em;
+}
+
+.contenedor-registro{
+    padding: 3%;
+}
+
+.formulario-registro{
+    background-color: #fff;
+    border-radius: .25rem;
+}
+.formulario-cabecera{
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid grey;
+}
+.formulario-cabecera,.formulario-contenido{
+    padding: 3%;
+}
+input[type=text], input[type=password] ,input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus ,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.botones{
+    display: flex;
+}
+.btn-danger,.btn-success{
+    border-radius: 0px;
+    min-height: 3em;
+}
+/* REGISTRO - FIN */

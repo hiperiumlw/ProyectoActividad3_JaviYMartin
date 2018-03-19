@@ -33,7 +33,13 @@
                     <a class="nav-link" href="#somos">Quién somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#dondeEstamos" id="enlaceEstamos">Donde Estamos</a>
+                    <a class="nav-link" href="#dondeEstamos" id="dondeEstamos">Donde Estamos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-secondary" href="/public/iniciarsesion.html"><i class="fas fa-user"></i>Iniciar Sesion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-secondary boton-registro" href="/public/registro.html"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
                 </li>
             </ul>
         </div>
@@ -106,15 +112,79 @@
                        data-jbox-title="
                     <h2>Descripcion del destino : Malta</h2>"
                        data-jbox-content="
-                     <div class='container'>
-                        <div class='row'>
-                            <div class='col-6'>
-                                <div class='destino-malta'></div>
-                               I'm your content. Remember to set CSS display to none!
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-malta'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 799€</span><span>Solo 2 plazas disponibles</span></div>
+
                             </div>
                             <div class='col-6'>
-                                <div class='destino-malta'></div>
-                               I'm your content. Remember to set CSS display to none!
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <a href='public/destinos/malta.html' class='btn btn-primary'>DESCRIPCION</a>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                      </div>
@@ -156,7 +226,87 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4 columna-ultimahora">
-                    <a href="#" title="Destino London" class="verDisponibilidad">
+                    <a href="#" title="Destino London" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : London</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-london'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 500€</span><span>Solo 3 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-london"></div>
                             <div class=""><h4>London visita guiada</h4></div>
@@ -171,7 +321,87 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4 columna-ultimahora">
-                    <a href="#" title="Destino Dublin" class="verDisponibilidad">
+                    <a href="#" title="Destino Dublin" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Dublin</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-dublin'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 720€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-dublin"></div>
                             <div class=""><h4>Conoce los mejores lugares de Dublin</h4></div>
@@ -188,7 +418,87 @@
             </div>
             <div class="row fila-destinos d-none d-sm-none d-md-flex d-lg-flex d-xl-flex ">
                 <div class="col-md-6 col-lg-4 col-xl-4 columna-ultimahora">
-                    <a href="#" title="Destino Paris" class="verDisponibilidad">
+                    <a href="#" title="Destino Paris" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Paris</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-paris'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 1175€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-paris"></div>
                             <div class=""><h4>Paris , la cuidad bella de Francia</h4></div>
@@ -203,7 +513,87 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4 columna-ultimahora">
-                    <a href="#" title="Destino Amsterdam" class="verDisponibilidad">
+                    <a href="#" title="Destino Amsterdam" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Amsterdam</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-amsterdam'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 820€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-amsterdam"></div>
                             <div class=""><h4>¿Quieres conocer Amsterdam? Reserva hoy!</h4></div>
@@ -218,7 +608,87 @@
                     </a>
                 </div>
                 <div class="col-md-6 col-lg-4 col-xl-4 columna-ultimahora">
-                    <a href="#" title="Destino Roma" class="verDisponibilidad">
+                    <a href="#" title="Destino Roma" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Roma</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-roma'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 777€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-rome"></div>
                             <div class=""><h4>Italia , el pais de la comida</h4></div>
@@ -338,7 +808,87 @@
             <p class="proximos">Proximos</p>
             <div class="row d-flex fila-destinos">
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 columna-proximo">
-                    <a href="#" title="Destino Azores">
+                    <a href="#" title="Destino Azores" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Azores</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-azores'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 995€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-azores"></div>
                             <div class=""><h4>Azores,Isla de Terceira</h4></div>
@@ -351,7 +901,87 @@
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 columna-proximo">
-                    <a href="#" title="Destino Tenerife">
+                    <a href="#" title="Destino Tenerife"class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Tenerife</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-tenerife'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 895€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-tenerife"></div>
                             <div class=""><h4>La isla de Tenerife</h4></div>
@@ -364,7 +994,87 @@
                     </a>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 columna-proximo">
-                    <a href="#" title="Destino Nueva York">
+                    <a href="#" title="Destino Nueva York" class="verDisponibilidad"
+                       data-jbox-title="
+                    <h2>Descripcion del destino : Nueva York</h2>"
+                       data-jbox-content="
+                     <div class='container-fluid'>
+                        <div class='row fila-disponibilidad'>
+                            <div class='col-6 linea-formulario'>
+                               <div class='destino-nuevayork'></div>
+                               <h4 class='detalles-oferta'>Detalles de la oferta</h4>
+                               <span class='descripcion-oferta'>Salida : 07/05/2018 Regreso : 15/05/2018</span><br>
+                               <span class='descripcion-oferta'>Vuelo desde Valencia</span><br>
+                               <div class='descripcion-oferta-precio'><span class='btn btn-warning'>Precio : 799€</span><span>Solo 2 plazas disponibles</span></div>
+
+                            </div>
+                            <div class='col-6'>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_origen'>ORIGEN</label>
+                                            <select class='form-control' id='id_label_single'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                         </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label class='descripcion-label' for='label_destino'>DESTINO</label>
+                                            <select class='form-control'>
+                                                <option value='España'>España</option>
+                                                <option value='Japon'>Japon</option>
+                                                <option value='Estados Unidos'>Estados Unidos</option>
+                                                <option value='Brazil'>Brazil</option>
+                                                <option value='Canada'>Canada</option>
+                                                <option value='Abu Dhabi'>Abu Dhabi</option>
+                                                <option value='Francia'>Francia</option>
+                                                <option value='Alemania'>Alemania</option>
+                                                <option value='Portugal'>Portugal</option>
+                                                <option value='Chile'>Chile</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>SALIDA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                    <div class='col-6'>
+                                        <div class='form-group'>
+                                            <label for='label-salida' class='descripcion-label'>VUELTA</label>
+                                            <input class='form-control' type='date' id='example-date-input'/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='row'>
+                                    <div class='col-12 columna-ida-idayvuelta'>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='ida'><label for='label-ida' class='descripcion-label'>IDA</label>
+                                        <input type='radio' name='inlineRadioOptions' id='inlineRadio1' value='idayvuelta'><label for='label-idayvuelta' class='descripcion-label'>IDA Y VUELTA</label>
+                                    </div>
+                                </div>
+                                <div class='d-flex flex-column'>
+                                    <div class='p-3 botones-disponibilidad'>
+                                        <button type='button' class='btn btn-primary'>DESCRIPCION</button>
+                                        <button type='button' class='btn btn-primary'>VER DISPONIBILIDAD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                        ">
                         <div class="d-flex flex-column destino">
                             <div class="destino-nuevayork"></div>
                             <div class=""><h4>Nueva York: Vuelo + Hotel</h4></div>
@@ -394,7 +1104,7 @@
     </div>
 
 </section>
-<section id="dondeEstamos">
+<section>
     <div class="wrapper-contacto">
         <div class="container-fluid">
             <div class="row fila-contacto-titulo justify-content-center">

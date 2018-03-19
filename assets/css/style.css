@@ -101,9 +101,13 @@ header{
 .viaja a{
     margin-left: 25%;
 }
+/* MENU - INICIO : MARTIN */
 
-
-/*DESTINOS : MARTIN */
+.boton-registro{
+    margin-left: 0.3em;
+}
+/* MENU - FIN : MARTIN */
+/*DESTINOS - INICIO: MARTIN */
 .contenedor-destinos .row{
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -274,7 +278,51 @@ margin-right: 2em;
     margin-left: 1em;
     font-size: small;
 }
-/*DESTINOS : MARTIN */
+.fila-disponibilidad{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.detalles-oferta{
+    font-size: 18px;
+    color:#46403c;
+    margin:0px !important;
+    padding: 10px 10px 0px 10px;
+}
+
+.descripcion-oferta{
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0px 0px 10px;
+}
+.descripcion-oferta-precio{
+    margin: 10px 0px 0px 10px;
+    min-width: 30%;
+    border-radius: 3px;
+}
+
+.descripcion-oferta-precio span:nth-child(2){
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.descripcion-label{
+    font-size: 1em;
+    color: #868e96;
+}
+.form-control{
+    min-height: 45px;
+    font-size: large !important;
+}
+
+.columna-ida-idayvuelta label{
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
+.botones-disponibilidad{
+    text-align: right;
+}
+/*DESTINOS - FIN : MARTIN */
 
 #somos{
     background-image: url("../images/somos.jpg");
