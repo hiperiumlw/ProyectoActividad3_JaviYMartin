@@ -498,7 +498,7 @@ footer hr{
         margin-right: 0.5em;
     }
 
-    /*DESTINOS : MARTIN*/
+    /*DESTINOS - INICIO : MARTIN*/
 
     .columna-proximo,.columna-ultimahora{
         margin-top: 1em;
@@ -507,6 +507,15 @@ footer hr{
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+
+    /* DESTINOS - FIN : MARTIN */
+
+    /* MENU - INICIO : MARTIN */
+
+    .boton-registro{
+        margin-top: 0.5em;
+    }
+
 }
 
 

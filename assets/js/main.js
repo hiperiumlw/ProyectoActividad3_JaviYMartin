@@ -4,6 +4,7 @@ $(document).ready(function () {
     new jBox('Tooltip', {
         attach: '.jBox-Tooltip',
         theme: 'TooltipDark',
+        delayOpen: 200,
         content: $('#grabMe'),
     });
 
