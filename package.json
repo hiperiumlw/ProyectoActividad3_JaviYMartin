@@ -10,7 +10,8 @@
     "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.0",
-    "jbox": "^0.4.8"
+    "jbox": "^0.4.8",
+    "mysql": "^2.15.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

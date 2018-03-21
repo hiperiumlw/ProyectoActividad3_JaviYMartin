@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Iniciar Sesion</title>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../node_modules/jbox/Source/jBox.css">
-    <link rel="stylesheet" href="../node_modules/jbox/Source/themes/TooltipDark.css">
-    <link rel="stylesheet" type="text/css" href="../bower_components/fullpage.js/dist/jquery.fullpage.min.css"/>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Destino Malta</title>
+    <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../node_modules/jbox/Source/jBox.css">
+    <link rel="stylesheet" href="../../../node_modules/jbox/Source/themes/TooltipDark.css">
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/fullpage.js/dist/jquery.fullpage.min.css"/>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../assets/css/destinos.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
@@ -18,7 +18,7 @@
 <header class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
 
-        <a class="navbar-brand" href="/"><img src="../assets/images/iconoweb2.png"></a>
+        <a class="navbar-brand" href="/"><img src="../../../assets/images/iconoweb2.png"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,10 +37,10 @@
                     <a class="nav-link" href="#dondeEstamos" id="enlaceEstamos">Donde Estamos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-secondary" href="/public/iniciarsesion.html"><i class="fas fa-user"></i>Iniciar Sesion</a>
+                    <a class="btn btn-outline-secondary" href="/login"><i class="fas fa-user"></i>Iniciar Sesion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="btn btn-outline-secondary boton-registro" href="/public/registro.html"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
+                    <a class="btn btn-outline-secondary boton-registro" href="/registro"><i class="fas fa-sign-in-alt"></i>Registrarse</a>
                 </li>
             </ul>
         </div>
@@ -100,32 +100,55 @@
         </div>
     </div>
     </div>
+
+
 </header>
 <section>
-    <div class="wrapper-iniciarsesion bg-info">
+    <div class="wrapper-descripcion">
         <div class="row">
-            <div class="col-6 offset-3 contenedor-iniciarsesion">
-                <form action="" class="formulario-iniciarsesion">
-                    <div class="formulario-cabecera">
-                        <h1>Iniciar Sesión</h1>
-                        <p>Completa todos los campos para iniciar sesión</p>
-                    </div>
-                    <div class="formulario-contenido">
-                        <label for="usuario"><b>Nombre de Usuario</b></label>
-                        <input type="text" placeholder="Introduce tu nombre de usuario" name="usuario" required>
-
-                        <label for="contrasenya"><b>Contraseña</b></label>
-                        <input type="password" placeholder="Introduce tu contraseña" name="contrasenya" required>
-
-                        <button type="button" class="btn btn-success">Iniciar Sesion</button>
-                        <div class="d-flex justify-content-between">
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Recordarme
-                            </label>
-                            <a href="#" class="contrasenya-olvidada">¿Contraseña olvidada?</a>
-                        </div>
-                    </div>
-                </form>
+            <div class="col-12">
+                <h1 class="titulo">¡Descripcion del Viaje!</h1>
+            </div>
+        </div>
+        <div class="row fila-descripcion">
+            <div class="col-6">
+                <p>Malta es unos de los destinos preferidos por miles de personas de que desean gozar de unos fantasticos dias
+                    de turismo en medio del Mediterraneo.<br>
+                    <br>
+                    En esta isla podrás disfrutar del mar y de un buen descanso en un sitio paradisíaco.
+                    Además, si eres un aficionado a los deportes acuáticos y a las excursiones que implican aventura,
+                    seguramente te sentirás en tu salsa. Por otro lado, viajar a Malta con la idea de hacer turismo
+                    te permitirá descubrir muchísimas ciudades y pueblecitos históricos típicos del mediterráneo y,
+                    seguramente, caerás rendido bajo su encanto.
+                </p>
+            </div>
+            <div class="col-6">
+                <div class="imagen-descripcion">
+                    <img src="../../../assets/images/viaje-malta.jpg" alt="Viaje a Malta">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="titulo">¿Qué ventajas nos ofrece este viaje?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent malesuada maximus orci, quis iaculis leo imperdiet id.
+                    Proin risus magna, maximus sit amet elementum accumsan, rhoncus sed lorem.
+                    Sed consectetur rhoncus lacus. Quisque id commodo ante.
+                    Maecenas hendrerit dui diam, eget blandit nulla lobortis et.
+                    Pellentesque tellus ex, malesuada nec justo at, aliquet placerat libero.
+                    Proin sit amet posuere turpis. Vivamus vestibulum dictum molestie.
+                    Integer nibh augue, pulvinar sed scelerisque suscipit, mollis quis mauris.
+                    Etiam varius, justo porta eleifend laoreet, libero augue ullamcorper augue, a vestibulum velit mi eget nulla.
+                    Aenean pellentesque scelerisque luctus. Etiam a ultricies tellus, a consectetur velit.
+                    Nam quis leo euismod, consequat dolor id, lacinia lorem.</p>
+            </div>
+            <div class="col-8 offset-2 imagen-descripcion">
+                <img class="imagen" src="../../../assets/images/sea-sky-beach-holiday.jpg" alt="caravana">
             </div>
         </div>
     </div>
@@ -205,14 +228,11 @@
 
     </div>
 </footer>
-<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../node_modules/jbox/Source/jBox.min.js"></script>
-<script type="text/javascript" src="../bower_components/fullpage.js/dist/jquery.fullpage.min.js"></script>
+<script type="text/javascript" src="../../../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../node_modules/jbox/Source/jBox.min.js"></script>
+<script type="text/javascript" src="../../../bower_components/fullpage.js/dist/jquery.fullpage.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-<script type="text/javascript" src="../assets/js/main.js"></script>
-
-
-
+<script type="text/javascript" src="../../js/main.js"></script>
 </body>
 </html>
