@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet"  href="../css/estilos-j.css">
+    <link rel="stylesheet"  href="assets/css/estilos-j.css">
 </head>
 <body>
 <section id="formLogin">
     <div class="wrapper">
         <div class="container-fluid">
-            <div>
+            <div id="divForm">
                 <form action="" class="">
                     <div>
                     </div>
@@ -35,13 +35,65 @@
                         </div>
                     </div>
                 </form>
+
             </div>
         </div>
     </div>
+    <!---->
+    <div id="divFormPass">
+        <div>
+            <form action="">
+                <div>
+                    <h3>Recuperar contraseña</h3>
+                </div>
+                <div>
+                    <div>
+                        Introduce tu email
+                    </div>
+                    <div class="form-group">
+                        <input  class="form-control form-control-sm" type="email" placeholder="email" required>
+                    </div>
+                </div>
+                <div id="divSubmit">
+                    <button class="btn btn-dark btn-sm">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!---->
+</section>
+<section>
+    <!-- modal -->
+    <!--<div class="modal" tabindex="-1" role="dialog">-->
+        <!--<div class="modal-dialog" role="document">-->
+            <!--<div class="modal-content">-->
+                <!--<div class="modal-header">-->
+                    <!--<h5 class="modal-title">Restaurar contraseña</h5>-->
+                    <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+                        <!--<span aria-hidden="true">&times;</span>-->
+                    <!--</button>-->
+                <!--</div>-->
+                <!--<div class="modal-body">-->
+                    <!--<p>Introduce tu email.</p>-->
+                    <!--<div><input type="email"></div>-->
+                <!--</div>-->
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" id="btnSend" class="btn btn-primary btn-sm">Enviar</button>-->
+                    <!--<button type="button" id="btnCancel" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancelar</button>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!-- fin modal -->
+
+    <!-- formulario recuperar contraseña -->
+
+    <!-- fin formulario recuperar contraseña -->
 </section>
 
 <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="assets/js/login.js"></script>
 </body>
 </html>

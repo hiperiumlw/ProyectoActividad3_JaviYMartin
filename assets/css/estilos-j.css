@@ -42,3 +42,36 @@
 #divLinkPass a {
     text-decoration: none;
 }
+
+#divFormPass {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 25px;
+    position: relative;
+    border-radius: 5px;
+    min-width: 290px;
+    transform: translate(-50%, 30%);
+    left: 50%;
+    display: none;
+}
+
+#divFormPass button {
+    float: right;
+}
+
+#divSubmit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#divFormPass input {
+    margin-top: 5px;
+}
+
+/*.modal input {*/
+    /*width: 100%*/
+/*}*/
+
+/*.modal-content {*/
+    /*background-color: rgba(255,255,255,0.7);*/
+/*}*/
