@@ -9,7 +9,7 @@
 }
 
 #formLogin .container-fluid {
-    max-width: 33vw;
+    //max-width: 33vw;
 }
 
 #formLogin .container-fluid > div {
@@ -18,7 +18,7 @@
     position: relative;
     //top: 20vh;
     border-radius: 5px;
-    min-width: 290px;
+    //min-width: 290px;
     transform: translate(-50%, 30%);
     left: 50%;
 }
@@ -68,10 +68,29 @@
     margin-top: 5px;
 }
 
-/*.modal input {*/
-    /*width: 100%*/
-/*}*/
+@media (max-width: 599px) {
+    #formLogin .container-fluid > div {
+        width: 80vw;
+    }
+}
 
-/*.modal-content {*/
-    /*background-color: rgba(255,255,255,0.7);*/
-/*}*/
+@media (min-width: 600px) {
+    #formLogin .container-fluid > div {
+        width: 60vw;
+    }
+}
+@media (min-width: 900px) {
+    #formLogin .container-fluid > div {
+        width: 50vw;
+    }
+}
+@media (min-width: 1200px) {
+    #formLogin .container-fluid > div {
+        width: 30vw;
+    }
+}
+@media (min-width: 1800px) {
+    #formLogin .container-fluid > div {
+        width: 30vw;
+    }
+}
