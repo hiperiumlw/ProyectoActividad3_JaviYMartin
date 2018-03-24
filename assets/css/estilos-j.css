@@ -44,12 +44,12 @@
 }
 
 #divFormPass {
-    width: 400px;
+    //width: 400px;
     background-color: rgba(255, 255, 255, 0.4);
     padding: 25px;
     position: relative;
     border-radius: 5px;
-    min-width: 290px;
+    //min-width: 290px;
     transform: translate(-50%, 30%);
     left: 50%;
     display: none;
@@ -69,28 +69,33 @@
 }
 
 @media (max-width: 599px) {
-    #formLogin .container-fluid > div {
+    #formLogin .container-fluid > div,
+    #divFormPass {
         width: 80vw;
     }
 }
 
 @media (min-width: 600px) {
-    #formLogin .container-fluid > div {
+    #formLogin .container-fluid > div,
+    #divFormPass {
         width: 60vw;
     }
 }
 @media (min-width: 900px) {
-    #formLogin .container-fluid > div {
+    #formLogin .container-fluid > div,
+    #divFormPass {
         width: 50vw;
     }
 }
 @media (min-width: 1200px) {
-    #formLogin .container-fluid > div {
+    #formLogin .container-fluid > div,
+    #divFormPass {
         width: 30vw;
     }
 }
 @media (min-width: 1800px) {
-    #formLogin .container-fluid > div {
+    #formLogin .container-fluid > div,
+    #divFormPass {
         width: 30vw;
     }
 }
