@@ -17,6 +17,7 @@ APP.use('/assets', EXPRESS.static('assets'));
 APP.use('/bower_components', EXPRESS.static('bower_components'));
 APP.use('/node_modules', EXPRESS.static('node_modules'));
 
+
 APP.get('/',(req,res)=> res.sendFile(PATH.join(__dirname+'/index.html')));
 APP.get('/registro',(req,res)=> res.sendFile(PATH.join(__dirname+'/assets/html/registro.html')));
 APP.get('/login',(req,res)=> res.sendFile(PATH.join(__dirname+'/assets/html/login.html')));
@@ -54,3 +55,7 @@ APP.get('/registro/usuario', function(req, res) {
 //
 //
 // connection.end();
+
+APP.use(function(err, req, res, next) {
+    res.status(404).send('ERROR 404 : La pagina web no se encuentra disponible!');
+});
