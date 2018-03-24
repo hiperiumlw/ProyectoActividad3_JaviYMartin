@@ -4,6 +4,8 @@ sudo apt-get update
 sudo apt-get install -y apache2
 DEBIAN_FRONTEND=noninteractive sudo -E apt-get -q -y install mysql-server
 sudo apt-get -y install php5
+sudo apt-get -y install nodejs
+sudo apt-get -y install nodejs-legacy
 if ! [ -L /var/www/html/ ]; then
   sudo rm -rf /var/www/html/
   sudo ln -fs /vagrant /var/www/html
