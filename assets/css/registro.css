@@ -1,16 +1,22 @@
 
 /* REGISTRO - INICIO */
 .wrapper-registro{
-    min-height: 30em;
+    background-image: url("../images/verano.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 20em;
 }
 
 .contenedor-registro{
-    padding: 3%;
+    padding: 3% !important;
 }
 
 .formulario-registro{
-    background-color: #fff;
-    border-radius: .25rem;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 25px;
+    border-radius: 5px;
 }
 .formulario-cabecera{
     background-color: rgba(0,0,0,.03);
@@ -49,5 +55,24 @@ button {
 .btn-danger,.btn-success{
     border-radius: 0px;
     min-height: 3em;
+}
+
+
+@media (max-width: 768px) {
+    .wrapper-registro{
+        min-height: 15em;
+
+    }
+    label{
+        font-size: 0.7em;
+    }
+    input{
+        height: 1em;
+        margin: 0px !important;
+    }
+    .row{
+        margin: 0px !important;
+    }
+
 }
 /* REGISTRO - FIN */

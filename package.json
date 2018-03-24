@@ -4,6 +4,7 @@
   "description": "actividad2",
   "main": "gulpfile.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "browser-sync": "^2.23.6",
     "express": "^4.16.3",
     "gulp": "^3.9.1",
@@ -11,6 +12,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.0",
     "jbox": "^0.4.8",
+    "locutus": "^2.0.9",
     "mysql": "^2.15.0"
   },
   "scripts": {
